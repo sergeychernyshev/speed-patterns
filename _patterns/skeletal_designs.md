@@ -21,7 +21,10 @@ To reduce cognitive load for the user, it is helpful to indicate the type of the
 
 For instance, image placeholders can be made of solid blocks of color. User's avatar images are often represented with a solid color circles if thats the shape of avatars in the completed user interface.
 
-<@TODO: include LinkedIn/Facebook example screenshot>
+<figure>
+<figcaption>LinkedIn Skeleton Screen</figcaption>
+<img src="{{ "/assets/linkedin_skeleton.png" | absolute_url }}" width="1000" height="545" alt="LinkedIn Skeleton Screen (static)"/>
+</figure>
 
 Text can be represented as a sequence of horizontal lines to mimic headers and paragraphs.
 
@@ -35,7 +38,10 @@ It has been proven that progress bars that use color gradients and pulsation ani
 
 Similar techniques are often used in skeletal designs where solid colors are replaces with gradients of similar color that animate left-to-right showing percieved progression.
 
-<@TODO include example of skeletal design with pulsating gradient>
+<figure>
+<figcaption>LinkedIn Pulsating Skeleton Screen</figcaption>
+<img src="{{ "/assets/linkedin_skeleton.gif" | absolute_url }}" width="1000" height="537" alt="LinkedIn Skeleton Screen pulsating"/>
+</figure>
 
 ## The challenges of skeletal degisgn
 
@@ -61,5 +67,9 @@ Why we recommned skeletal designs over the alternatives:
 
 ## Related patterns
 
-- immutable layout
+- [immutable layout](immutable_layout.html)
 - no spinners
+
+## Resources
+
+- [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797)
